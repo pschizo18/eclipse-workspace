@@ -1,0 +1,14 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+public class FileAccess {
+
+	public static void main(String[] args) {
+		// file opening:
+		// 1) an object refers to file on disk
+		// 2) read the file (line by line)
+		// 3) close the file (the object is no more referring to the file)
+		BufferedReader r = new BufferedReader(new FileReader("filename.txt"));
+	}
+
+}

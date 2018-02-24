@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre" version="1.8.0_161">
+<bootpath>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\resources.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\rt.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\jsse.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\jce.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\charsets.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\jfr.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs" version="1.8.0_161">
+<bootpath>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\resources.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\rt.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\jsse.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\jce.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\charsets.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\jfr.jar"/>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

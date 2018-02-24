@@ -1,0 +1,6 @@
+
+public class GUI {
+	//graphical user interface
+	//these are things, you will interact with them. (interactors)
+	//buttons, sliders, check boxes, radio buttons, select box
+}

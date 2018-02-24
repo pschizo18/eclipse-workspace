@@ -1,0 +1,27 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Interfaces {
+
+	public static void main(String[] args) {
+		//Interface: set of methods. (ABSTRACT IDEA)
+		//common set of functionality that a set of classes share
+		
+		/* public interface interfaceName{
+			public void methodName();
+		} */
+		
+		/* public class className implements interfaceName{
+			public void methodName() {
+				//implementation
+			}
+		} */
+		/****************************************************/
+		//MAP (Interface)
+		//way of associating a particular key with a particular value
+		//key:value (key value pair and add to map)
+		
+		Map variable = new HashMap<Integer,String>();
+	}
+
+}

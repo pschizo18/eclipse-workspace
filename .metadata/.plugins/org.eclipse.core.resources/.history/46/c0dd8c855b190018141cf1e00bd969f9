@@ -1,0 +1,10 @@
+
+public class Interfaces {
+
+	public static void main(String[] args) {
+		// set of methods
+		//common set of functionality that a set of classes share
+		
+	}
+
+}

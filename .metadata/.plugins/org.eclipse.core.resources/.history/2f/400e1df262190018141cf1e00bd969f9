@@ -1,0 +1,45 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+public class Interfaces {
+
+	public static void main(String[] args) {
+		//Interface: set of methods. (ABSTRACT IDEA)
+		//common set of functionality that a set of classes share
+		
+		/* public interface interfaceName{
+			public void methodName();
+		} */
+		
+		/* public class className implements interfaceName{
+			public void methodName() {
+				//implementation
+			}
+		} */
+		/****************************************************/
+		//MAP (Interface)
+		//way of associating a particular key with a particular value
+		//key:value (key value pair and add to map)
+		
+		Map variable = new HashMap<Integer,String>();
+		variable.put(1, ""); //key,value --> stored
+		variable.get(1); //key --> value
+		//null if key, value isn't found in map
+		
+		//map has no intrinsic ordering
+		variable.remove(1);
+		variable.containsKey(1); //return boolean
+		/****************************************************/
+		//Iterator: Idea
+		//its a way to list through a set of values
+		List variableL = new ArrayList<String>();
+		Iterator<String> i = variableL.iterator();
+		while(i.hasNext()) {
+			System.out.println(i.next());
+		}
+	}
+
+}

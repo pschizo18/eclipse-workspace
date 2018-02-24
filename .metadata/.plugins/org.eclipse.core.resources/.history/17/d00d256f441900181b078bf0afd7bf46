@@ -1,0 +1,70 @@
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		// array:
+		// 1) naturally ordered. (referred by index)
+		// 2) homogeneous. (same type)
+		int[] arrayVariable = new int[100];
+		// 100 variables to store int type is allocated in memory
+		// value initialized to default for there declared type
+		// arrayVariable[1]. access to array
+		// data type[] name = new data type[size];
+
+		// refer to individual element
+		for (int j = 0; j < arrayVariable.length; j++)
+			arrayVariable[j] = j;
+
+		// actual size of array: declared
+		// effective size: how much of the array is being used
+		final int SENTINEL = -1;
+		final int MAX_SIZE = 25;
+		sizeOfArray(SENTINEL, MAX_SIZE);
+		
+		//declare an array and initialize
+		int[] arrayVariableAnother = {1,2,3,4,5,6,7,8,9};
+		
+		/*************************************************************/
+		//grid of information: Matrix multi Dimension array. arrays of arrays
+		int[][] twoD = new int[1][2]; //rectangle
+		// [0,0] [0,1]--> twoD[0]
+		int[][][] threeD = new int[1][2][2]; //cube
+		//[0,0,0] [0,0,1] --> threeD[0][0]
+		//[0,1,0] [0,1,1] --> threeD[0][1]
+		
+		for(int i=0;i<1;i++)
+			for(int j=0;j<2;j++)
+				for(int k=0;k<2;k++)
+					System.out.println("array:"+threeD[i][j][k]);
+		
+		//pixels of a image, modify each pixel in 2D matrix. RBG color is value of int
+		/*************************************************************/
+		
+		//Boxing: wrapping an object around the primitive
+		Integer y = new Integer(1);
+		//UnBoxing: converting object to primitive
+		int x = y.intValue();
+		
+		//both of the above will be handled automatically
+		Integer yVar= 1;
+		int xVar = yVar;
+		
+		/*************************************************************/
+	}
+
+	private static void sizeOfArray(int sENTINEL, int mAX_SIZE) {
+		int[] arrayVariable = new int[mAX_SIZE];
+		Scanner s = new Scanner(System.in);
+		int numberScore = 0;
+		while (true) {
+			int score = s.nextInt();
+			if (score == sENTINEL)
+				break;
+			arrayVariable[numberScore++] = score;
+		}
+		System.out.println("Array actual size:" + mAX_SIZE + "  effective size:" + numberScore);
+		s.close();
+	}
+
+}

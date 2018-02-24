@@ -1,0 +1,48 @@
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		// array:
+		// 1) naturally ordered. (referred by index)
+		// 2) homogeneous. (same type)
+		int[] arrayVariable = new int[100];
+		// 100 variables to store int type is allocated in memory
+		// value initialized to default for there declared type
+		// arrayVariable[1]. access to array
+		// data type[] name = new data type[size];
+
+		// refer to individual element
+		for (int j = 0; j < arrayVariable.length; j++)
+			arrayVariable[j] = j;
+
+		// actual size of array: declared
+		// effective size: how much of the array is being used
+		final int SENTINEL = -1;
+		final int MAX_SIZE = 25;
+		sizeOfArray(SENTINEL, MAX_SIZE);
+		
+		//declare an array and initialize
+		int[] arrayVariableAnother = {1,2,3,4,5,6,7,8,9};
+		
+		//wouldn't it be helpful if array grows upon need
+		List arrayLVariable = new ArrayList<>();
+	}
+
+	private static void sizeOfArray(int sENTINEL, int mAX_SIZE) {
+		int[] arrayVariable = new int[mAX_SIZE];
+		Scanner s = new Scanner(System.in);
+		int numberScore = 0;
+		while (true) {
+			int score = s.nextInt();
+			if (score == sENTINEL)
+				break;
+			arrayVariable[numberScore++] = score;
+		}
+		System.out.println("Array actual size:" + mAX_SIZE + "  effective size:" + numberScore);
+		s.close();
+	}
+
+}

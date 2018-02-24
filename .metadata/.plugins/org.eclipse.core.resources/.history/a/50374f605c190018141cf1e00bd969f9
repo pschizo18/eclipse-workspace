@@ -1,0 +1,19 @@
+
+public class Interfaces {
+
+	public static void main(String[] args) {
+		//Interface: set of methods.
+		//common set of functionality that a set of classes share
+		
+		/* public interface interfaceName{
+			public void methodName();
+		} */
+		
+		/* public class className implements interfaceName{
+			public void methodName() {
+				//implementation
+			}
+		} */
+	}
+
+}

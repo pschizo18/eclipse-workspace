@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\java editor\workspace\.metadata\.plugins\org.eclipse.jdt.core
+3252143851.index
+1945574139.index
