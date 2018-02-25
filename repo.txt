@@ -1,0 +1,6 @@
+cd 'C:\Users\pschizo18\Desktop\pschizo18@gmail.com\programs\java editor\workspace'
+git init
+git add .
+git commit -m "24 feb"
+git remote add origin https://github.com/pschizo18/eclipse-workspace.git
+git push origin master
